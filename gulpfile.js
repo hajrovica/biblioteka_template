@@ -9,7 +9,7 @@ gulp.task('watch', function () {
             baseDir: "./app/",
 
         },
-        port: 8080
+        port: 80
     });
 
     //when scss files change, run sass task first and reload browserSync second
